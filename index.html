@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla App Template</title>
+    <script type="module" crossorigin src="/goit-js-hw-12/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-12/assets/vendor-CocXUmuy.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-12/assets/vendor-Dr4k8ETB.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-12/assets/index-B_rALZIu.css">
+  </head>
+  <body>
+
+    <main>
+      <div class="container js-container">
+        <div class="wrapper-form">
+          <form class="form js-form">
+            <label>
+              <input type="text" name="search-text" placeholder="Search images..." />
+            </label>
+            <button type="submit">Search</button>
+          </form>
+        </div>
+        <ul class="gallery js-gallery">
+        </ul>
+      </div>
+      <button class="load-more js-load-more is-hidden">Load more</button>
+      <div class="loading-message js-loading-message is-hidden">
+        <p class="error-text">Loading images, please wait...</p>
+      </div>
+      <div class="error-message js-error-message is-hidden">
+        <p class="error-text">Sorry, there are no images matching your search query. Please try again.</p>
+      </div>
+    </main>
+    <div class="loader-container">
+      <span class="loader is-hidden"></span>
+    </div>
+
+  </body>
+</html>
