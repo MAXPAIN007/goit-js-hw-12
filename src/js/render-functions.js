@@ -69,3 +69,11 @@ export function showLoader(loaderElem) {
 export function hideLoader(loaderElem) {
   loaderElem.classList.add('is-hidden');
 }
+
+export function showLoadMoreBtn(fetchPostsBtn) {
+  fetchPostsBtn.classList.remove('is-hidden');
+}
+
+export function hideLoadMoreBtn(fetchPostsBtn) {
+  fetchPostsBtn.classList.add('is-hidden');
+}
