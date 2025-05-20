@@ -119,6 +119,7 @@ function onSubmitForm(event) {
           position: 'topRight',
           timeout: 3000,
         });
+        showErrorMessage.classList.remove('is-hidden');
         return;
       }
 
