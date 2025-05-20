@@ -101,14 +101,14 @@
 
 /* Gallery */
 
-.gallery {
+.js-gallery {
   position: relative;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 24px;
-  padding: 24px 0;
+  margin-bottom: 32px;
 }
 
 .wrapper-form {
@@ -116,6 +116,7 @@
   display: flex;
   justify-content: center;
   gap: 8px;
+  margin-bottom: 32px;
 }
 
 input {
@@ -212,4 +213,21 @@ button:hover {
   right: 0;
   left: 0;
   bottom: 0;
+}
+
+.js-load-more {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 125px;
+  height: 40px;
+  background: #4e75ff;
+  margin-bottom: 32px;
+}
+.js-loading-message {
+  margin-bottom: 32px;
+  height: 40px;
+}
+.js-error-message {
+  margin-bottom: 32px;
+  height: 40px;
 }
